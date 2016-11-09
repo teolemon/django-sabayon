@@ -88,3 +88,8 @@ ENV/
 # Rope project settings
 .ropeproject
 .venv
+build
+dist
+*.egg
+*.egg-info
+*.whl
