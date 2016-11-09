@@ -4,7 +4,7 @@ from django.http import HttpResponse, HttpResponseNotFound, HttpResponseNotAllow
 def find_key(token):
     if os.environ.get('ACME_TOKEN') == token:
         return os.environ.get('ACME_KEY')
-    for k, v is os.environ.items():
+    for k, v in os.environ.items():
         if v == token and k.startswith('ACME_TOKEN_'):
             n = k.replace("ACME_TOKEN_", "")
             return os.environ.get("ACME_KEY_{}".format(n))
