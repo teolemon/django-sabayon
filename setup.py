@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-sabayon',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     author='w0de',
     author_email='harry@sysop.ooo',
