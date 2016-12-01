@@ -1,5 +1,5 @@
 # django-sabayon
-Django support for [sabayon](https://github.com/dmathieu/sabayon)
+Django support for [sabayon](https://github.com/dmathieu/sabayon), to enable easy Let's Encrypt support on Heroku for Django apps.
 
 ## Setup
 0. [Setup sabayon](https://github.com/dmathieu/sabayon/blob/master/README.md#setup)
